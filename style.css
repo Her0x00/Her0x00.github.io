@@ -1,1 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(204, 117, 117, 70%);
+}
+
+/* Navbar */
+
+.nav {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #C1A4A4;
+    box-shadow: 1px 2px gray;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 40px;;
+    color: white;
+    align-items: center;
+    font-family: Lalezar;
+    
+    
+}
+
+.nav li {
+    list-style-type: none;
+}
+
+.manki {
+    border-radius: 20px;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 60px;
+    margin-right: 100px;
+    text-shadow: 1px 1px black;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* first p */
+
+.box1 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    justify-content: center;
+    gap: 200px;
+    margin-left: 200px;
+}
+
+
+.frontend-img {
+    width: 211px;
+
+
+}
+
+.first-p {
+    color: white;
+    font-family: Lalezar;
+    font-size: 25px;
+}
+
+.first-h1 {
+    font-family: Lalezar;
+    font-size: 40px;
+}
+
+/* lines */
+
+.line1 {
+    background-color: #C1A4A4;
+    width: 900px;
+    height: 70px;
+    display: flex;
+    margin: auto;
+    margin-top: 170px;
+    border-radius: 17px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+
+}
 
